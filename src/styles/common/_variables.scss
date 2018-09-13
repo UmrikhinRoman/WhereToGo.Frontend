@@ -1,0 +1,43 @@
+// font sizes
+$font-xxs: 10px;
+$font-xs: 12px;
+$font-s: 14px;
+$font-m: 16px;
+$font-l: 18px;
+$font-xl: 20px;
+$font-xxl: 22px;
+$font-xxxl: 24px;
+$font-xxxxl: 26px;
+$font-xxxxxl: 28px;
+
+// Indents
+$indent-xs: 5px;
+$indent-s: 10px;
+$indent-sm: 15px;
+$indent-m: 20px;
+$indent-l: 30px;
+$indent-xl: 40px;
+$indent-xxl: 50px;
+
+// Media breakpoints
+$breakpoint-l: 1200px;
+$breakpoint-m:  992px;
+$breakpoint-s:  768px;
+$breakpoint-xs: 600px;
+
+// Media queries
+$desktop-only: (min-width: $breakpoint-l);            // > 1200px
+$desktop-and-down: (max-width: $breakpoint-l - 1);    // < 1119px
+$laptop-and-up: (min-width: $breakpoint-m);           // > 992px
+$laptop-and-down: (max-width: $breakpoint-m - 1);     // < 991px
+$tablet-and-up: (min-width: $breakpoint-s);           // > 768px
+$tablet-and-down: (max-width: $breakpoint-s - 1);     // < 767px
+$mobile-and-up: (min-width: $breakpoint-xs);           // > 600px
+$mobile-and-down: (max-width: $breakpoint-xs - 1);     // < 599px
+
+// Z-Index Scale
+$z-index-1:   100;
+$z-index-2:   200;
+$z-index-3:   300;
+$z-index-4:   400;
+$z-index-5:   500;
